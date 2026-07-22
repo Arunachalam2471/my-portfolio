@@ -15,7 +15,7 @@ const projects = [
     description:
       "A modern real estate platform designed to showcase properties with a responsive, visually engaging, and seamless user experience.",
     image: "/projects/project3.png",
-    tags: ["HTML", "CSS","Tailwind", "Javascript", "React", "OpenAI", "Redux"],
+    tags: ["HTML", "CSS", "Tailwind", "Javascript", "React", "OpenAI", "Redux"],
     link: "https://rethinkvirera.com/",
     github: "#",
   },
@@ -24,7 +24,7 @@ const projects = [
     description:
       "A modern fintech platform enabling seamless loan management, banking operations, and real-time financial insights.",
     image: "/projects/project2.png",
-    tags: ["HTML", "CSS","Tailwind", "Javascript", "React", "OpenAI", "Redux","Mysql"],
+    tags: ["HTML", "CSS", "Tailwind", "Javascript", "React", "OpenAI", "Redux", "Mysql"],
     link: "https://dev.finzorcbs.com/",
     github: "#",
   },
@@ -33,7 +33,7 @@ const projects = [
     description:
       "A powerful web hosting platform designed to simplify website management, domain services, and hosting operations with a seamless user experience.",
     image: "/projects/project4.png",
-    tags: ["HTML", "CSS","Tailwind", "Javascript", "React", "OpenAI", "Redux"],
+    tags: ["HTML", "CSS", "Tailwind", "Javascript", "React", "OpenAI", "Redux"],
     link: "https://hostengine.com/",
     github: "#",
   },
@@ -107,12 +107,19 @@ export const Projects = () => {
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
+                  <a
+                    href={project?.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Open ${project?.title}`}
+                  >
                   <ArrowUpRight
                     className="w-5 h-5 
                   text-muted-foreground group-hover:text-primary
                    group-hover:translate-x-1 
                    group-hover:-translate-y-1 transition-all"
                   />
+                  </a>
                 </div>
                 <p className="text-muted-foreground text-sm">
                   {project.description}

@@ -39,7 +39,7 @@ export const Hero = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = "/arunachalam-resume.pdf";
     link.download = "Arunachalam_Resume.pdf";
     link.click();
   }
@@ -124,6 +124,7 @@ export const Hero = () => {
                 <a
                   key={idx}
                   href={social.href}
+                  target="_blank"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}
