@@ -2,39 +2,39 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Credvault",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A secure digital credential management platform that enables users to store, organize, and access important documents with role-based authentication and seamless user experience.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
+    tags: ["HTML", "CSS", "Tailwind", "Javascript", "React", " NodeJS", "Redux.js"],
+    link: "https://domsync.ai/",
     github: "#",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Rethink Virera",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "A modern real estate platform designed to showcase properties with a responsive, visually engaging, and seamless user experience.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
+    tags: ["HTML", "CSS","Tailwind", "Javascript", "React", "OpenAI", "Redux"],
+    link: "https://rethinkvirera.com/",
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "Finzor",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A modern fintech platform enabling seamless loan management, banking operations, and real-time financial insights.",
+    image: "/projects/project2.png",
+    tags: ["HTML", "CSS","Tailwind", "Javascript", "React", "OpenAI", "Redux","Mysql"],
+    link: "https://dev.finzorcbs.com/",
+    github: "#",
+  },
+  {
+    title: "Host Engine",
+    description:
+      "A powerful web hosting platform designed to simplify website management, domain services, and hosting operations with a seamless user experience.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
+    tags: ["HTML", "CSS","Tailwind", "Javascript", "React", "OpenAI", "Redux"],
+    link: "https://hostengine.com/",
     github: "#",
   },
 ];

@@ -1,8 +1,8 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Arunachalam2471", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/arunachalam-palanivel-a7a03bb9/", label: "LinkedIn" },
   { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
@@ -23,10 +23,10 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              Arunachalam Palanivel<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Arunachalam Palanivel. All rights reserved.
             </p>
           </div>
 

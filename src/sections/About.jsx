@@ -40,39 +40,28 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Turning complex problems,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                into elegant software solutions.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm a passionate Frontend Developer with over 4 years of experience building responsive, high-performance web applications that deliver exceptional user experiences. My journey began with a curiosity about creating interactive websites, and it has grown into a strong passion for developing scalable, modern web solutions.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I specialize in React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, and Next.js, with hands-on experience developing enterprise-grade applications across fintech, real estate, and HRMS domains. I enjoy transforming complex requirements into clean, maintainable, and user-friendly interfaces while ensuring performance, accessibility, and responsiveness across all devices.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                I'm always eager to learn new technologies, improve my development skills, and stay up to date with the latest trends in frontend engineering. I believe in writing clean code, collaborating effectively with teams, and building products that create real value for users.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to build fast, scalable, and user-centric web applications that deliver exceptional experiences while maintaining clean, efficient, and maintainable code."
               </p>
             </div>
           </div>

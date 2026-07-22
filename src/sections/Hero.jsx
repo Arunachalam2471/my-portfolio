@@ -10,27 +10,40 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "React",
-  "Next.js",
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+  "Javascript",
+  "Redux",
+  "BitBucket",
+  "Jira",
   "TypeScript",
   "Node.js",
   "GraphQL",
   "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
+  // "Redis",
+  // "Docker",
+  // "AWS",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
+  // "Prisma",
+  // "Jest",
+  // "Cypress",
   "Figma",
   "Git",
   "GitHub Actions",
 ];
 
 export const Hero = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/resume.pdf";
+    link.download = "Arunachalam_Resume.pdf";
+    link.click();
+  }
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
@@ -52,9 +65,8 @@ export const Hero = () => {
               backgroundColor: "#20B2A6",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${
-                15 + Math.random() * 20
-              }s ease-in-out infinite`,
+              animation: `slow-drift ${15 + Math.random() * 20
+                }s ease-in-out infinite`,
               animationDelay: `${Math.random() * 5}s`,
             }}
           />
@@ -76,18 +88,13 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences with
-                <br />
+                Turning <span className="text-primary glow-text">Complex Ideas </span>
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  into Elegant User Interfaces.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Arunachalam Palanivel — a Frontend Developer specializing in React.js, JavaScript, Next.js, and modern UI development. I build scalable, responsive, and high-performance web applications with a strong focus on user experience, clean code, and pixel-perfect design.
               </p>
             </div>
 
@@ -98,7 +105,7 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-                Download CV
+                <span onClick={() => handleDownload()}>Download CV</span>
               </AnimatedBorderButton>
             </div>
 
@@ -106,8 +113,8 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Github, href: "https://github.com/Arunachalam2471" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/arunachalam-palanivel-a7a03bb9/" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
@@ -132,7 +139,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/myphoto.jpeg"
                   alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
@@ -148,7 +155,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">4+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
