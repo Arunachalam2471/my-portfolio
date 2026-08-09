@@ -37,12 +37,15 @@ const skills = [
 
 export const Hero = () => {
 
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/arunachalam-resume.pdf";
-    link.download = "Arunachalam_Resume.pdf";
-    link.click();
-  }
+const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = "/Arunachalam_Resume.pdf";
+  link.download = "Arunachalam_Resume.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
