@@ -1,45 +1,58 @@
 const experiences = [
   {
-    period: "2024 — Present",
-    role: "Senior Software Engineer",
-    company: "Cloudrevel Innovations Pvt Ltd.",
+    period: "2026 — Present",
+    role: "Frontend Developer",
+    company: "Docto Technologies Private Limited",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React.js", "Redux"],
+      "Developing scalable, high-performance web applications for healthcare platforms using Next.js, TypeScript, React.js, and Tailwind CSS. Building reusable components, integrating REST APIs, implementing responsive interfaces, and managing application state using Redux.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Redux",
+    ],
     current: true,
   },
   {
-    period: "2022-2024",
-    role: "Frontend Developer",
-    company: "Neptune Information Solutions",
+    period: "2024 — 2026",
+    role: "Senior Software Engineer",
+    company: "Cloudrevel Innovations Pvt Ltd.",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["HTML", "CSS", "Tailwind CSS", "Javascript", "React.js", "Redux"],
+      "Developed and maintained scalable frontend applications for fintech products using React.js and modern frontend technologies. Worked on reusable components, API integrations, state management, responsive UI development, and frontend performance optimization.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React.js",
+      "Redux",
+    ],
     current: false,
   },
-  // {
-  //   period: "2019 — 2020",
-  //   role: "Junior Developer",
-  //   company: "StartUp Labs",
-  //   description:
-  //     "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-  //   technologies: ["React", "Node.js", "MongoDB", "AWS"],
-  //   current: false,
-  // },
-  // {
-  //   period: "2018 — 2019",
-  //   role: "Freelance Developer",
-  //   company: "Self-Employed",
-  //   description:
-  //     "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-  //   technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
-  //   current: false,
-  // },
+  {
+    period: "2019 — 2022",
+    role: "Process Associate",
+    company: "First American India Private Limited",
+    description:
+      "Worked in the mortgage processing domain, handling mortgage-related documents, verifying borrower and loan information, maintaining data accuracy, and ensuring quality standards were followed throughout the process.",
+    technologies: [
+      "Mortgage Processing",
+      "Document Verification",
+      "Data Validation",
+      "Quality Assurance",
+      "Financial Operations",
+    ],
+    current: false,
+  },
 ];
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-6 py-24 relative overflow-hidden">
+    <section id="experience" className="py-6 lg:py-24 relative overflow-hidden">
       <div
         className="absolute top-1/2 left-1/4 w-96
        h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"

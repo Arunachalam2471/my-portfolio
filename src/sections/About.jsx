@@ -49,7 +49,7 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate Frontend Developer with over 4 years of experience building responsive, high-performance web applications that deliver exceptional user experiences. My journey began with a curiosity about creating interactive websites, and it has grown into a strong passion for developing scalable, modern web solutions.
+                I'm a passionate Frontend Developer with over 2+ years of experience building responsive, high-performance web applications that deliver exceptional user experiences. My journey began with a curiosity about creating interactive websites, and it has grown into a strong passion for developing scalable, modern web solutions.
               </p>
               <p>
                 I specialize in React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, and Next.js, with hands-on experience developing enterprise-grade applications across fintech, real estate, and HRMS domains. I enjoy transforming complex requirements into clean, maintainable, and user-friendly interfaces while ensuring performance, accessibility, and responsiveness across all devices.
