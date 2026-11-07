@@ -158,7 +158,7 @@ const handleDownload = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold">4+</div>
+                  <div className="text-2xl font-bold">2+</div>
                   <div className="text-xs ">
                     Years Exp.
                   </div>
